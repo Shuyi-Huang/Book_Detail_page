@@ -55,16 +55,20 @@ Difficulties:
 Features
 
 main page
+
 ![image alt](https://github.com/Shuyi-Huang/Book_Detail_page/blob/49dba484d5b950e9633a6b321abcf4628551cf8d/features/main%20page.png)
 
 flip over page
+
 ![image alt](https://github.com/Shuyi-Huang/Book_Detail_page/blob/49dba484d5b950e9633a6b321abcf4628551cf8d/features/Flip%20book%20cover%20.png)
 
 book details page
+
 ![image alt](https://github.com/Shuyi-Huang/Book_Detail_page/blob/49dba484d5b950e9633a6b321abcf4628551cf8d/features/book%20details.png)
 
 
 system alert
+
 ![image alt](https://github.com/Shuyi-Huang/Book_Detail_page/blob/49dba484d5b950e9633a6b321abcf4628551cf8d/features/systerm%20alert.png)
 
 
