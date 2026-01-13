@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preload" href="book_cover.jpg" as="image">
+  <link rel="preload" href="back.webp" as="image">
+  <title>The Little Prince</title>
+</head>
+<body>
+
+  <main class="container">
+    <section class="contact-box">
+      <!--left card-->
+      <section class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <!-- Front side -->
+            
+          </div>
+          <div class="flip-card-back">
+            <!-- back side -->
+          </div>
+        </div>
+      </section>
+      
+      <!--right card-->
+      <article class="right">
+        <header>
+          <h1>The Little Prince</h1>
+          <p>Antoine de Saint-Exupéry</p>
+        </header>
+
+        <!--user rate-->
+        <div class="rating-container">
+          <span class="rating-value">4.9</span>
+          <span class="user-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+        </div>
+        <section class="rating">
+          <span class="rate">2,110,188 ratings</span>
+          <span class="review">67,777 reviews</span>
+        </section>
+        <!--book introduction-->
+        <article class="book-info">
+          <p class="book-brief">A pilot stranded in the desert awakes one morning to see, standing before him, the most extraordinary little fellow. "Please," asks the stranger, "draw me a sheep." And the pilot realizes that when life's events are too difficult to understand, there is no choice but to succumb to their mysteries. He pulls out pencil and paper... And thus begins this wise and enchanting fable that, in teaching the secret of what is really important in life, has changed forever the world for its readers.</p>
+        </article>
+
+        <!--book detail link to wikipedia -->
+        <div class="book-detail">
+          <a href="https://en.wikipedia.org/wiki/The_Little_Prince" class="book-detail-link">
+            <span>Book details & author background</span>
+          </a>
+        </div>
+        <!--user rating-->
+        <section class="user-rating">
+          <span class="user-rates">Your rate:</span>
+          <div class="stars" id="ratingStars">
+            <!-- Using data-value for dynamic star rating -->
+            <span class="star" data-value="1">&#9734;</span>
+            <span class="star" data-value="2">&#9734;</span>
+            <span class="star" data-value="3">&#9734;</span>
+            <span class="star" data-value="4">&#9734;</span>
+            <span class="star" data-value="5">&#9734;</span>
+          </div>
+          <button class="submit">Add to cart</button>
+        </section>
+      </article>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
